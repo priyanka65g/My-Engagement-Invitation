@@ -1,7 +1,7 @@
 var names = prompt("enter your name");
 if(names!=null){
- document.querySelector(".message").textContent="Hiii "+names+", I hope you are eagerly waiting for my marriage. This is the right time to announce our engagement ceremony. Come and join us to celebrate this new chapter of my life";
+ document.querySelector(".message").textContent="Hiii "+names+", I hope you are eagerly waiting for my marriage"+String.fromCodePoint(0x1FAE3)+". This is the right time to announce our engagement"+String.fromCodePoint(0x148d)+" ceremony. Come and join us to celebrate this new chapter of my life"+String.fromCodePoint(0x1F60B);
 }
 else
-document.querySelector(".message").textContent="Hiii, I hope you are eagerly waiting for my marriage. This is the right time to announce our engagement ceremony. Come and join us to celebrate this new chapter of my life"+String.fromCodePoint(0x1FAE3);
+document.querySelector(".message").textContent="Hiii, I hope you are eagerly waiting for my marriage"+String.fromCodePoint(0x1FAE3)+". This is the right time to announce our engagement"+String.fromCodePoint(0x1F48d)+" ceremony. Come and join us to celebrate this new chapter of my life"+String.fromCodePoint(0x1F60B);
 
