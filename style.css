@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pixelify+Sans&family=Poppins:ital,wght@1,700&display=swap');
 body{
     background-repeat: no-repeat;
@@ -9,7 +8,7 @@ body{
     font-family: "Kalam";
     font-weight: bold;
     font-size: 0.4rem;
-    margin-top:28% ;
+    /* margin-top:28% ; */
     
 
 
@@ -47,13 +46,7 @@ h1{
     font-size: 32px;
     font-family: 'Dancing Script', cursive;
 }
-.finalimg{
-    display:flex;
-    justify-content: space-between;
-    gap: 200px;
-    padding-top: 0;
-    margin-bottom: 0;
-}
+
 
 .message{
     font-size: 15px;
@@ -74,3 +67,22 @@ a{
 a:hover{
     color:rgb(3, 85, 34)
 }
+.marq{
+    display: flex;
+    animation: animate 12s linear infinite;
+    gap:250px;
+
+}
+.firstimg{
+    padding-top: 8%;
+}
+
+
+@keyframes animate{
+    0%{
+        transform: translate(-100%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+} 
